@@ -38,7 +38,7 @@ options:
     required: false
   rules:
     description:
-      - List of firewall inbound rules to enforce in this group (see example). If none are supplied, a default all-out rule is assumed. If an empty list is supplied, no inbound rules will be enabled.
+      - List of firewall inbound rules to enforce in this group (see example). If none or an empty list is supplied, no inbound rules will be enabled.
     required: false
   rules_egress:
     description:
